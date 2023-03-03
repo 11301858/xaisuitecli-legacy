@@ -1,10 +1,8 @@
-This is the script for XAISuite's command-line interface. Download it to your working directory and then simply type 
+This is the script for XAISuiteCLI, XAISuite's command-line interface. Simply type
 
 ```
-$alias xs="bash XAISuiteCLI.sh"
+$brew install xai
 ```
-
-for the help menu.
 
 Command-line options and flags include:
 
@@ -25,7 +23,7 @@ The correct positioning of the options are as follows:
 
 ````
 
-$xs --train --model <Model name> --import <filename if --model has no arguments> --data <Data> 
+$xai --train --model <Model name> --import <filename if --model has no arguments> --data <Data> 
 --target <Target name> --compare --verbose -- GUI --graphics
 
 ````
