@@ -6,11 +6,11 @@ import os.path
 
 keywords = ["train", "check", "model", "data", "compare", "verbose", "GUI", "explainers", "target"]
 
-assert len(sys.argv) >= 3 or sys.argv[1] == "GUI", "Not enough arguments"
+assert len(sys.argv) >= 4 or sys.argv[1] == "GUI", "Not enough arguments"
 
 
 if ((sys.argv[1]) == "check"):
-    assert len(sys.argv) == 3, "At most 2 arguments after check command - 1 option, 1 name "
+    assert len(sys.argv) == 4, "At most 2 arguments after check command - 1 option, 1 name "
     assert (sys.argv[2] == "model" or sys.argv[2] == "data" or sys.argv[2] == "explainers"), "Unrecognized option after command check: " + str(sys.argv[2])
     
     if (sys.argv[2] == "model"):
