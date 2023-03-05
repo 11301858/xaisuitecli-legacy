@@ -1,7 +1,7 @@
-This is the script for XAISuiteCLI, XAISuite's command-line interface. Simply type
+This is the script for XAISuiteCLI, XAISuite's command-line interface. Simply download XAISuiteCLI.sh and CLIRunner.py to your working directory and type
 
 ```
-brew install xai
+$alias xs="bash XAISuiteCLI.sh"
 ```
 
 Command-line options and flags include:
@@ -22,7 +22,7 @@ An example of correct usage would be
 
 ````
 
-xai train model SVR data energy_efficiency_data.csv target Heating_Load explainers shap lime verbose
+$xs train model SVR data energy_efficiency_data.csv target Heating_Load explainers shap lime verbose
 
 ````
 
@@ -30,6 +30,6 @@ or
 
 ````
 
-xai check model SDGRegressor
+$xs check model SDGRegressor
 
 ````
