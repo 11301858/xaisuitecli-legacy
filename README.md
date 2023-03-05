@@ -1,4 +1,5 @@
 :warning: Obsolete. Please refer to the new xaisuitecli repository.
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 This is the script for XAISuiteCLI, XAISuite's command-line interface. Simply download XAISuiteCLI.sh and CLIRunner.py to your working directory and type
 
